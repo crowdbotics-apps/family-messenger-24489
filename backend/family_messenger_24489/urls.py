@@ -45,9 +45,9 @@ urlpatterns = [
     path("wallet/", include("wallet.urls")),
 ]
 
-admin.site.site_header = "Family messenger"
-admin.site.site_title = "Family messenger Admin Portal"
-admin.site.index_title = "Family messenger Admin"
+admin.site.site_header = "Uber Max"
+admin.site.site_title = "Uber Max Admin Portal"
+admin.site.index_title = "Uber Max Admin"
 
 # swagger
 api_info = openapi.Info(
